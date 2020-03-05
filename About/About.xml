@@ -5,7 +5,20 @@
   <url>https://github.com/BishopGit/mending-medieval</url>
   <supportedVersions>
     <li>1.0</li>
+    <li>1.1</li>
   </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>notfood.MendAndRecycle</packageId>
+      <displayName>MendAndRecycle</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/735241897</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadBefore></loadBefore>
+  <loadAfter>
+    <li>notfood.MendAndRecycle</li>
+  </loadAfter>
+  <packageId>bishop.mendingmedieval</packageId>
   <description>Now you can mend in medieval times!
 
 This mod is a simple patch for the MendAndRecycle mod.  This mod removes the complex mending recipes, and makes the simple recipes take longer, due to more primitive technology and the removal of the electricty cost.  In order to be able to mend, you will first need to research Smithing and ComplexClothing.
